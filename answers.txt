@@ -1,0 +1,9 @@
+1. İterator nədir və nə üçün istifadə olunur?
+cavab: iteratorlar python-da cox genis istifade olunur, for dovrlerinin arxasinda iterator calisir,
+basqa sozle desek iterator obyekti, hansiki uzerinde next vasitesile iterasiya  etmek olur,
+iterator obyektinin arxasinda __iter__(yaratmaq ucun) ve __next__(uzerinde gezmek ucun) mothodlari dayanir.
+list, tuple, string iterable obyectlerdi, cunki onlardan iterator ala bilirik.
+
+2. Generator nədir və nə üçün istifadə olunur?
+cavab: generator - iterator obyekti yaratmagin asand usuludu, generator bize iterator qaytarir(yield vasitesi ile),
+her defe next etdikde yalniz bir deyer qaytarir, generatordan istifade esasen bize memory efficient qazandirir.
